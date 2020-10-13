@@ -1,0 +1,56 @@
+body {
+  background-color: beige;
+}
+h1 {
+  margin-left: 10px;
+  text-align: center;
+  font-family: "Palatino linotype", palatino, serif;
+}
+p {
+  margin-left: 10px;
+  text-align: center;
+  font-family: tahoma, sans-serif;
+}
+header {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkseagreen;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: darkgrey;
+}
+.active {
+  background-color: grey;
+}
+img {
+  margin: 10px;
+  max-width: 100%;
+  heigth: auto;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  font-family: tahoma, sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
